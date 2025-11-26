@@ -14,12 +14,12 @@
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-2xl: 1.5rem;
     --text-2xl--line-height: calc(2 / 1.5);
-    --text-3xl: 1.875rem;
-    --text-3xl--line-height: calc(2.25 / 1.875);
     --font-weight-bold: 700;
     --font-weight-black: 900;
     --default-font-family: var(--font-sans);
     --default-mono-font-family: var(--font-mono);
+    --animate-slide-in: slide-in 0.5s ease-in-out;
+    --animate-slide-out: slide-out 0.5s ease-in-out;
   }
 }
 @layer base {
@@ -200,6 +200,12 @@
   }
   .w-dvw {
     width: 100dvw;
+  }
+  .animate-slide-in {
+    animation: var(--animate-slide-in);
+  }
+  .animate-slide-out {
+    animation: var(--animate-slide-out);
   }
   .resize {
     resize: both;
@@ -431,6 +437,22 @@
   syntax: "*";
   inherits: false;
   initial-value: 0 0 #0000;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+@keyframes slide-out {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {

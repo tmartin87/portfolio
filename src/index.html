@@ -1,13 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="./output.css" rel="stylesheet" />
   </head>
-  <body class="text-indigo-50 bg-stone-950">
+  <body class="bg-stone-950 text-indigo-50">
     <header id="header" class="bg-indigo-950">
-      <nav class="h-16 flex items-center justify-between shadow-sm sticky top-0 sm:px-24">
+      <nav
+        class="sticky top-0 flex h-16 items-center justify-between shadow-sm sm:px-24"
+      >
         <button id="menu-button" class="absolute left-2 sm:hidden">
           <svg
             width="40px"
@@ -24,16 +26,15 @@
               stroke-linejoin="round"
             />
           </svg>
-        </button >
+        </button>
         <h1
-          
-          class="mx-auto bg-gradient-to-r from-[#ff5d50] to-[#d31166] bg-clip-text text-transparent text-2xl font-black sm:mx-0"
+          class="mx-auto bg-gradient-to-r from-[#ff5d50] to-[#d31166] bg-clip-text text-2xl font-black text-transparent sm:mx-0"
         >
           &lt;Tomás Martín /&gt;
         </h1>
         <ul
           id="nav-menu"
-          class="absolute top-0 hidden flex-col h-dvh w-dvw justify-around text-center font-bold text-2xl bg-indigo-950 sm:static sm:flex sm:h-auto sm:w-1/2 sm:flex-row sm:justify-between sm:bg-transparent sm:text-sm sm:text-left"
+          class="absolute top-0 hidden h-dvh w-dvw flex-col justify-around bg-indigo-950 text-center text-2xl font-bold sm:static sm:flex sm:h-auto sm:w-1/2 sm:flex-row sm:justify-between sm:bg-transparent sm:text-left sm:text-sm"
         >
           <li>
             <a href="#about-me">Sobre mi</a>
@@ -45,51 +46,66 @@
             <a href="#reviews">Reseñas</a>
           </li>
           <li>
-          <button class="sm:hidden">
-            <svg
-              height="50px"
-              width="50px"
-              version="1.1"
-              id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              viewBox="0 0 26 26"
-              xml:space="preserve"
-            >
-              <g>
-                <path
-                  style="fill: currentColor"
-                  d="M21.125,0H4.875C2.182,0,0,2.182,0,4.875v16.25C0,23.818,2.182,26,4.875,26h16.25
+            <button class="sm:hidden">
+              <svg
+                height="50px"
+                width="50px"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 26 26"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    style="fill: currentColor"
+                    d="M21.125,0H4.875C2.182,0,0,2.182,0,4.875v16.25C0,23.818,2.182,26,4.875,26h16.25
 		C23.818,26,26,23.818,26,21.125V4.875C26,2.182,23.818,0,21.125,0z M18.78,17.394l-1.388,1.387c-0.254,0.255-0.67,0.255-0.924,0
 		L13,15.313L9.533,18.78c-0.255,0.255-0.67,0.255-0.925-0.002L7.22,17.394c-0.253-0.256-0.253-0.669,0-0.926l3.468-3.467
 		L7.221,9.534c-0.254-0.256-0.254-0.672,0-0.925l1.388-1.388c0.255-0.257,0.671-0.257,0.925,0L13,10.689l3.468-3.468
 		c0.255-0.257,0.671-0.257,0.924,0l1.388,1.386c0.254,0.255,0.254,0.671,0.001,0.927l-3.468,3.467l3.468,3.467
 		C19.033,16.725,19.033,17.138,18.78,17.394z"
-                />
-              </g>
-            </svg>
-          </button>
+                  />
+                </g>
+              </svg>
+            </button>
           </li>
         </ul>
       </nav>
     </header>
     <section>
-      <article class=" max-w-72 mx-auto sm:max-w-screen-lg">
-        <img class="max-w-72 rounded-full mx-auto" src="https://media.licdn.com/dms/image/v2/D4E03AQEk8swJQUEnig/profile-displayphoto-shrink_400_400/B4EZU99xQ2HcAs-/0/1740501358075?e=1766016000&v=beta&t=AyFVurxFa4IPH_7MjvxthTeV8tTPrbW_YHOjr9zHXSw" alt="">
+      <article class="mx-auto max-w-72 sm:max-w-screen-lg">
+        <img
+          class="mx-auto max-w-72 rounded-full"
+          src="https://media.licdn.com/dms/image/v2/D4E03AQEk8swJQUEnig/profile-displayphoto-shrink_400_400/B4EZU99xQ2HcAs-/0/1740501358075?e=1766016000&v=beta&t=AyFVurxFa4IPH_7MjvxthTeV8tTPrbW_YHOjr9zHXSw"
+          alt=""
+        />
         <div>
-          <h2  class="mx-auto bg-gradient-to-r from-[#ff5d50] to-[#d31166] bg-clip-text text-transparent text-6xl font-black sm:mx-0">¡Hola!</h2>
+          <h2
+            class="mx-auto bg-gradient-to-r from-[#ff5d50] to-[#d31166] bg-clip-text text-6xl font-black text-transparent sm:mx-0"
+          >
+            ¡Hola!
+          </h2>
           <p>Soy Tomás desarrollador web</p>
           <ul class="flex gap-10">
             <li>
-          <a target="_blank" href="https://github.com/tmartin87">
-            <img class="max-w-12" src="./assets/github-icon.svg" alt="">
-          </a>
-          </li>
-          <li>
-          <a target="_blank" href="https://www.linkedin.com/in/tomas-martin-46496282/">
-            <img class="max-w-12" src="./assets/LinkedIn_icon.svg.png" alt="">
-          </a>
-          </li>
+              <a target="_blank" href="https://github.com/tmartin87">
+                <img class="max-w-12" src="./assets/github-icon.svg" alt="" />
+              </a>
+            </li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.linkedin.com/in/tomas-martin-46496282/"
+              >
+                <img
+                  class="max-w-12"
+                  src="./assets/LinkedIn_icon.svg.png"
+                  alt=""
+                />
+              </a>
+            </li>
           </ul>
         </div>
       </article>

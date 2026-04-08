@@ -13,8 +13,10 @@ projects.forEach((project) => {
     const tech = card.querySelector(".tech");
     const link = card.querySelector("a");
 
-    Image.src = project.image.src;
-    Image.alt = project.image.alt;
+     console.log({ title, image, description, tech, link });
+
+    image.src = project.image.src;
+    image.alt = project.image.alt;
 
     title.textContent = project.title;
     description.textContent = project.description;

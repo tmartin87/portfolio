@@ -20,7 +20,7 @@ export const projects = [
     description:
       "Aplicación web para llevar el seguimiento de tus lecturas. Permite explorar libros, añadirlos a tu lista, registrar el progreso y marcarlos como terminados.",
     tech: " HTML, CSS, JavaScript, React, React Router, Supabase",
-    link: "https://tmartin87.github.io/SKATER_BOY/",
+    link: "https://github.com/tmartin87/BOOKS-APP",
   },
 
   {
@@ -32,6 +32,6 @@ export const projects = [
     description:
       "Aplicación web para crear, organizar y compartir planes con amigos. Permite establecer planes públicos o privados, invitar personas por WhatsApp o enlace directo, y comentar para interactuar con los participantes.",
     tech: " HTML, CSS, JavaScript, React",
-    link: "https://tmartin87.github.io/SKATER_BOY/",
+    link: "https://github.com/tmartin87/project-3-client",
   },
 ];

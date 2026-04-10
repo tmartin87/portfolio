@@ -35,3 +35,31 @@ export const projects = [
     link: "https://github.com/tmartin87/project-3-client",
   },
 ];
+
+
+export const reviews = [
+  {
+    image: {
+      src: "https://i.pravatar.cc/150?img=3",
+      alt: "Foto de perfil de Juan Pérez",
+    },
+    name: "Juan Pérez",
+    comment: "Excelente trabajo, superó mis expectativas. La comunicación fue fluida y el proyecto se entregó a tiempo. ¡Recomiendo sus servicios sin dudarlo!",
+  },
+  {
+    image: {
+      src: "https://i.pravatar.cc/150?img=3",
+      alt: "Foto de perfil de Juan Pérez",
+    },
+    name: "Juan Pérez",
+    comment: "Excelente trabajo, superó mis expectativas. La comunicación fue fluida y el proyecto se entregó a tiempo. ¡Recomiendo sus servicios sin dudarlo!",
+  },
+  {
+    image: {
+      src: "https://i.pravatar.cc/150?img=3",
+      alt: "Foto de perfil de Juan Pérez",
+    },
+    name: "Juan Pérez",
+    comment: "Excelente trabajo, superó mis expectativas. La comunicación fue fluida y el proyecto se entregó a tiempo. ¡Recomiendo sus servicios sin dudarlo!",
+  },
+]

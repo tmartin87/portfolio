@@ -30,7 +30,7 @@ export const projects = [
       alt: "captura de pantalla del proyecto 1",
     },
     description:
-      "Aplicación web para crear, organizar y compartir planes con amigos. Permite establecer planes públicos o privados, invitar personas por WhatsApp o enlace directo, y comentar para interactuar con los participantes.",
+      "Aplicación web para crear, organizar y compartir planes con amigos. Permite hacerlos públicos o privados, invitar por WhatsApp o enlace y comentar.",
     tech: " HTML, CSS, JavaScript, React",
     link: "https://github.com/tmartin87/project-3-client",
   },

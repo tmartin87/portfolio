@@ -310,6 +310,9 @@
   .animate-slide-out {
     animation: var(--animate-slide-out);
   }
+  .cursor-pointer {
+    cursor: pointer;
+  }
   .resize {
     resize: both;
   }

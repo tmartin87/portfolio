@@ -1,6 +1,7 @@
 const menuButton = document.querySelector("#menu-button");
 const navMenu = document.querySelector("#nav-menu");
 const navlis = document.querySelectorAll("#nav-menu li");
+const mainTitle = document.querySelector("#main-title");
 
 menuButton.addEventListener("click", () => {
     navMenu.classList.remove("hidden", "animate-slide-out");
@@ -34,3 +35,10 @@ navMenu.addEventListener("animationend", (event) => {
     }
    })
     
+
+   mainTitle.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+   })

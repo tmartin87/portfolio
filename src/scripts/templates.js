@@ -11,7 +11,8 @@ projects.forEach((project) => {
     const image = card.querySelector("img");
     const description = card.querySelector("p");
     const tech = card.querySelector(".tech");
-    const link = card.querySelector("a");
+    const link = card.querySelector(".github-link");
+    const appLink = card.querySelector(".app-link");
 
      
 
@@ -23,6 +24,7 @@ projects.forEach((project) => {
 
     tech.textContent = project.tech;
     link.href = project.link;
+    appLink.href = project.appLink;
 
     projectsUL.appendChild(card);
     

@@ -43,7 +43,7 @@ export const projects = [
 export const reviews = [
   {
     image: {
-      src: "https://media.licdn.com/dms/image/v2/D4D03AQE1_0-wtvuJUQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1715771220764?e=1777507200&v=beta&t=0Aq2LjxicDo2blRrOt1Q8JG711m2RILkjdCNRVW3xIc",
+      src: "./assets/FOTO_MERITXEL.JPG",
       alt: "Foto de perfil de Meritxell Gabarra",
     },
     name: "Meritxell Gabarra",
@@ -51,7 +51,7 @@ export const reviews = [
   },
   {
     image: {
-      src: "https://media.licdn.com/dms/image/v2/D4D03AQEegCaWlnmlHA/profile-displayphoto-shrink_400_400/B4DZdlXhFdHkAg-/0/1749752353544?e=1777507200&v=beta&t=z8vs_oDNSS_aGmqQAZasZmxYDkiFrVVikFxKabzcX3s",
+      src: "./assets/FOTO_MARTA.JPG",
       alt: "Foto de perfil de Marta Gómez Martínez",
     },
     name: "Marta Gómez Martínez",

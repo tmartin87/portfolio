@@ -59,10 +59,10 @@ export const reviews = [
   },
   {
     image: {
-      src: "https://i.pravatar.cc/150?img=3",
-      alt: "Foto de perfil de Juan Pérez",
+      src: "./assets/FOTO_CARLOS.png",
+      alt: "Foto de perfil de Carlos Vega",
     },
-    name: "Juan Pérez",
-    comment: "Excelente trabajo, superó mis expectativas. La comunicación fue fluida y el proyecto se entregó a tiempo. ¡Recomiendo sus servicios sin dudarlo!",
+    name: "Carlos Vega",
+    comment: "Como nos dijo una vez el gran Aixalá En Mediapro antes de que nos dejara: Muy buen trabajo y no cambiéis nunca! Pues mejor frase que la del jefe para definirte en estos años que he podido tener el privilegio de ser tu compañero y amigo. Cualquier empresa que tenga el placer de contratarte será afortunada de tener primero una buena persona y segundo un gran compañero profesional!! tan difcil en estos tiempos de encotrar!. Gran profesional y mejor persona!",
   },
 ]

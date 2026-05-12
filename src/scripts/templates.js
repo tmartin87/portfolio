@@ -28,6 +28,7 @@ projects.forEach((project) => {
 
     projectsUL.appendChild(card);
     
+    
 
 })
 

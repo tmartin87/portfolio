@@ -43,7 +43,7 @@ export const projects = [
 export const reviews = [
   {
     image: {
-      src: "./assets/FOTO_MERITXEL.JPG",
+      src: "./assets/FOTO_MERITXEL.jpg",
       alt: "Foto de perfil de Meritxell Gabarra",
     },
     name: "Meritxell Gabarra",
@@ -51,7 +51,7 @@ export const reviews = [
   },
   {
     image: {
-      src: "./assets/FOTO_MARTA.JPG",
+      src: "./assets/FOTO_MARTA.jpg",
       alt: "Foto de perfil de Marta Gómez Martínez",
     },
     name: "Marta Gómez Martínez",

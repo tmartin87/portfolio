@@ -357,9 +357,6 @@
   .bg-indigo-50 {
     background-color: var(--color-indigo-50);
   }
-  .bg-indigo-950 {
-    background-color: var(--color-indigo-950);
-  }
   .bg-slate-50 {
     background-color: var(--color-slate-50);
   }
@@ -542,14 +539,14 @@
       flex-wrap: wrap;
     }
   }
-  .sm\:justify-between {
-    @media (width >= 40rem) {
-      justify-content: space-between;
-    }
-  }
   .sm\:justify-center {
     @media (width >= 40rem) {
       justify-content: center;
+    }
+  }
+  .sm\:justify-end {
+    @media (width >= 40rem) {
+      justify-content: flex-end;
     }
   }
   .sm\:bg-transparent {
@@ -623,6 +620,25 @@
       text-align: left;
     }
   }
+}
+.hero-animate {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  transition-delay: var(--delay, 0s);
+}
+.hero-animate.loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+.scroll-animate {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+.scroll-animate.loaded {
+  opacity: 1;
+  transform: translateY(0);
 }
 @property --tw-border-style {
   syntax: "*";

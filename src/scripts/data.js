@@ -63,6 +63,6 @@ export const reviews = [
       alt: "Foto de perfil de Carlos Vega",
     },
     name: "Carlos Vega",
-    comment: "Como nos dijo una vez el gran Aixalá En Mediapro antes de que nos dejara: Muy buen trabajo y no cambiéis nunca! Pues mejor frase que la del jefe para definirte en estos años que he podido tener el privilegio de ser tu compañero y amigo. Cualquier empresa que tenga el placer de contratarte será afortunada de tener primero una buena persona y segundo un gran compañero profesional!! tan difcil en estos tiempos de encotrar!. Gran profesional y mejor persona!",
+    comment: "Como nos dijo una vez el gran Aixalá En Mediapro antes de que nos dejara: Muy buen trabajo y no cambiéis nunca! Pues mejor frase que la del jefe para definirte en estos años que he podido tener el privilegio de ser tu compañero y amigo. Cualquier empresa que tenga el placer de contratarte será afortunada de tener primero una buena persona y segundo un gran compañero profesional!! tan dificil en estos tiempos de encotrar!. Gran profesional y mejor persona!",
   },
 ]

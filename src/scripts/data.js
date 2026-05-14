@@ -20,7 +20,7 @@ export const projects = [
     },
     description:
       "Aplicación web para llevar el seguimiento de tus lecturas. Permite explorar libros, añadirlos a tu lista, registrar el progreso y marcarlos como terminados.",
-    tech: " HTML, CSS, JavaScript, React, React Router, Supabase",
+    tech: " HTML, CSS, JavaScript, React, Supabase",
     link: "https://github.com/tmartin87/BOOKS-APP",
     appLink: "https://cheery-chimera-131b01.netlify.app/"
   },
@@ -33,7 +33,7 @@ export const projects = [
     },
     description:
       "Aplicación web para crear, organizar y compartir planes con amigos. Permite hacerlos públicos o privados, invitar por WhatsApp o enlace y comentar.",
-    tech: " HTML, CSS, JavaScript, React",
+    tech: " HTML, CSS, JavaScript, React, Express.js, MongoDB",
     link: "https://github.com/tmartin87/project-3-client",
     appLink: "https://nexo-plans.netlify.app/"
   },

@@ -4,11 +4,12 @@ Portfolio personal desarrollado con HTML, CSS (Tailwind CSS) y JavaScript vanill
 
 ## 🚀 Demo
 
-[[Ver portfolio en vivo](#) <!-- sustituye con tu URL -->](https://tmartin87.github.io/portfolio/)
+(https://tmartin87.github.io/portfolio/)
 
 ## 📸 Preview
 
-<!-- añade una captura de pantalla aquí -->
+<img width="1278" height="931" alt="PORTFOLIO_WB" src="https://github.com/user-attachments/assets/eacde8a7-a9b2-4826-92b8-15a1522ee5b7" />
+aptura de pantalla aquí -->
 ![Preview del portfolio](./assets/FOTO_TOMAS.jpg)
 
 ## 🛠️ Tecnologías

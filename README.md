@@ -1,6 +1,6 @@
 # &lt;Tomás Martín /&gt; — Portfolio Personal
 
-Portfolio personal desarrollado con HTML, CSS (Tailwind CSS) y JavaScript vanilla. Diseñado para mostrar mi transición del mundo del motion graphics al desarrollo web.
+Portfolio personal desarrollado con HTML, CSS (Tailwind CSS) y JavaScript. Diseñado para mostrar mi transición del mundo del motion graphics al desarrollo web.
 
 ## 🚀 Demo
 
